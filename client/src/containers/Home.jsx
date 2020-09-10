@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import dayDreaming from "../../src/media/gifs/judas_daydreaming.gif"
-
+import Photography from "../../src/media/gifs/judas_photography.gif"
 
 class Home extends Component {
     render() {
@@ -10,13 +10,16 @@ class Home extends Component {
         }
         return (
             <div>
-                
-                    <div className= "col-3">
-                        <div className= "text-center col">
+                <div className="container">
+                    <div className="row">
+                    <div className= "col">
                         <img style={{marginTop:20}}src={dayDreaming} alt="dayDreaming" />
-                        </div>
                     </div>
-                
+                    <div className= "col">
+                        <img style={{marginTop:20}}src={Photography} alt="dayDreaming" />
+                    </div>
+                    </div>
+                </div>
             </div>
                 
    
