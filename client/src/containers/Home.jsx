@@ -17,6 +17,22 @@ class Home extends Component {
                 <img
                   className="img-responsive"
                   style={{ marginTop: 20, width: "100%" }}
+                  src={Photography}
+                alt="Photography"
+                />
+                <div className="overlay">
+                  <h2>Photography</h2>
+                  <p>
+                    <a href="#">Check out my photos</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-12">
+              <div className="hovereffect">
+                <img
+                  className="img-responsive"
+                  style={{ marginTop: 20, width: "100%" }}
                   src={dayDreaming}
                   alt="Videos"
                 />
@@ -27,14 +43,6 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-sm-12">
-              <img
-              className="img-responsive"
-                style={{ marginTop: 20, width: "100%" }}
-                src={Photography}
-                alt="Photography"
-              />
             </div>
           </div>
         </div>
