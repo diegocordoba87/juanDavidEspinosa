@@ -18,7 +18,7 @@ class Home extends Component {
                   className="img-responsive"
                   style={{ marginTop: 20, width: "100%" }}
                   src={dayDreaming}
-                  alt="dayDreaming"
+                  alt="Videos"
                 />
                 <div className="overlay">
                   <h2>Videos</h2>
@@ -30,9 +30,10 @@ class Home extends Component {
             </div>
             <div className="col-lg-6 col-sm-12">
               <img
-                style={{ marginTop: 20, marginLeft: 10, width: "100%" }}
+              className="img-responsive"
+                style={{ marginTop: 20, width: "100%" }}
                 src={Photography}
-                alt="dayDreaming"
+                alt="Photography"
               />
             </div>
           </div>
